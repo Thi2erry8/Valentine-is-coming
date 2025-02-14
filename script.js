@@ -1,5 +1,5 @@
 let noClicks = 1;
-const maxNoClicks = 5;
+const maxNoClicks = 4;
 const minNoScale = 0.65;
 let noScale = 1;
 let yesScale = 1; // This now tracks the scaling factor directly
@@ -13,7 +13,7 @@ const maxYesWidth = parseFloat(yesButtonStyle.maxWidth);
 // array of gifs - in order
 const gifs = ["assets/images/togepi-happy.gif", "assets/images/togepi-sad-1.gif", "assets/images/togepi-sad-2.gif", "assets/images/togepi-crying.gif"];
 // array of messages
-const buttonMessages = ["OU pa konn sa ou vle podjab??", "Duchesse please", "PLEASE", "Map vinn Mandew li Jakmel ui!"];
+const buttonMessages = ["wa eseye bouton an??", "Duchesse please", "Map vinn Jakmel ui!","Please"];
 
 // no button clicked
 noButton.addEventListener("click", () => {
